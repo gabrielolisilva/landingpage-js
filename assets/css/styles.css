@@ -65,6 +65,21 @@ p {
   margin-bottom: 3rem;
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th,
+table td {
+  border: 0.1rem solid var(--light-gray-color);
+  padding: 0.5rem;
+}
+
+table th {
+  background: var(--light-gray-color);
+}
+
 .main-bg {
   background-image: url("../img/main-bg.svg");
   background-size: cover;
