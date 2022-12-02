@@ -13,6 +13,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -60,6 +61,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin-bottom: 3rem;
+}
+
 .main-bg {
   background-image: url("../img/main-bg.svg");
   background-size: cover;
@@ -88,6 +93,7 @@ a {
   right: 0;
   width: 100%;
   border-bottom: 0.1rem solid var(--light-gray-color);
+  z-index: 99;
 }
 
 .menu-content {
@@ -166,4 +172,18 @@ a {
 .intro-img img {
   max-width: 100%;
   height: auto;
+}
+
+.top3-content {
+  max-width: 64rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.top3-content h2 {
+  margin-bottom: 5rem;
 }
